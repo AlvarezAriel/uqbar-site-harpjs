@@ -1,11 +1,13 @@
-#card-pillars-container.row
-    each card in public.hero._data.cards
-        .col.s12.m4
-            .card(class="#{card.background}")
-                .card-image
-                    img(src="/assets/images/#{card.image}")
-                .card-content.white-text
-                    span.card-title #{card.title}
-                    p #{card.description}
-                .card-action
-                    a(href='#') This is a link
+extends _layout
+block featured
+    #card-pillars-container.row
+        each card in public.hero._data.cards
+            .col.s12.m4
+                .card(class="#{card.background}")
+                    .card-image
+                        img(src="/assets/images/#{card.image}")
+                    .card-content.white-text
+                        span.card-title #{card.title}
+                        p #{card.description}
+                    .card-action
+                        a(href='#') This is a link
