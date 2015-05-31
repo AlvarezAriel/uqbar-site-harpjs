@@ -10,7 +10,7 @@ body
   background-size: cover
   background-attachment fixed
 
-.hero-logo
+#hero-logo
   margin-top: 30vh
   background: url("/assets/images/logo-celeste.png") no-repeat center center
   background-size: contain
@@ -28,3 +28,17 @@ nav
   color: #fff;
   background-color: #494949;
   width: 100%;
+  z-index: 2000;
+  .mdi-navigation-menu
+    color #81c0e8
+
+.transparent-nav
+  background-color: rgba(0,0,0,0)
+  box-shadow: none
+  .navbar-logo
+    visibility hidden
+  .mdi-navigation-menu
+    color white
+
+footer.page-footer
+  background-color #81c0e8
