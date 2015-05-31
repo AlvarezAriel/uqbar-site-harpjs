@@ -4,10 +4,10 @@ node_js:
 before_script:
 - npm install -g component
 - npm install -g harp
-- cd site
+- cd site/assets
 - component install
 - component build
-- cd ..
+- cd ../..
 - chmod +x ./deploy.sh
 script: "./deploy.sh"
 env:
