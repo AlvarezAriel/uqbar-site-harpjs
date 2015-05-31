@@ -3,7 +3,7 @@ $( document ).ready(function(){
 
     var options =
     {
-        offset: 0,
+        offset: 50,
         onTopHidden: function( elm, distance_scrolled ) {
             $('nav').removeClass('transparent-nav');
         },

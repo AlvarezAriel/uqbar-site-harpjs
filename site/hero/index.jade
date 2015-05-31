@@ -1,5 +1,20 @@
 extends _layout
 block featured
+
+    .row
+        .col.s12.m5.l6.featured-card
+            .card-panel.blue.lighten-2.thin-languages
+
+        .col.s12.m7.l6
+            .card-panel.deep-orange.darken-3.featured-card
+                .white-text.mumuki-logo
+                    h3 Mumuki
+                    p Mumuki is just a simple, open and collaborative platform that allows users to store and distribute programming exercises - that is a problem description and a set of automated tests -, and submit their solutions. It is aimed at assisting people in learning programming languages and paradigms.
+
+    .event-banner
+        a(href="#")
+            img(src="/assets/images/wisit15.png")
+
     #card-pillars-container.row
         each card in public.hero._data.cards
             .col.s12.m4
