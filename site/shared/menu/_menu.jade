@@ -1,7 +1,4 @@
-#main-header
-    .logo-container
-    //ul.affix-top(data-spy="affix" data-offset-top="300")
-    //    each section in public.shared.menu._data.sections
-    //        li
-    //            a(href="#{ section.path }") #{section.label}
-!=partial('../navbar/_navbar')
+each section in public.shared.menu._data.sections
+    li
+        a(href="#{ section.path }") #{section.label}
+

@@ -19,19 +19,15 @@ html
             #hero-logo
 
         nav.fixed-navbar.transparent-nav(role='navigation')
-            .nav-wrapper.container
+            .nav-wrapper.container-fluid
                 a#logo-container.brand-logo(href='#')
                     img.navbar-logo(src="/assets/images/logo-celeste.png")
 
                 ul.right.hide-on-med-and-down
-                    each section in public.shared.menu._data.sections
-                        li
-                            a(href="#{ section.path }") #{section.label}
+                    != partial("../_shared/_menu")
 
                 ul#nav-mobile.side-nav
-                    each section in public.shared.menu._data.sections
-                        li
-                            a(href="#{ section.path }") #{section.label}
+                    != partial("../_shared/_menu")
 
                 a.button-collapse(href='#', data-activates='nav-mobile')
                     i.mdi-navigation-menu
@@ -83,14 +79,8 @@ html
                     .col.l4.offset-l2.s12
                         h5.white-text Links
                         ul
-                            li
-                                a.grey-text.text-lighten-3(href='#!') Link 1
-                            li
-                                a.grey-text.text-lighten-3(href='#!') Link 2
-                            li
-                                a.grey-text.text-lighten-3(href='#!') Link 3
-                            li
-                                a.grey-text.text-lighten-3(href='#!') Link 4
+                            != partial("../_shared/_menu", {classes:"grey-text text-lighten-4"})
+
             .footer-copyright
                 .container
                     | © 2014 Copyright Text

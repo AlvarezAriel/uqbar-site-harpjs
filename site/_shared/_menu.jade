@@ -1,0 +1,7 @@
+each section in public.shared.menu._data.sections
+    li
+        if classes
+            a(href="#{ section.path }" class="#{classes}") #{section.label}
+        else
+            a(href="#{ section.path }") #{section.label}
+

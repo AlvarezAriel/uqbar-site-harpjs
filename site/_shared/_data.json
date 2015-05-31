@@ -1,0 +1,10 @@
+{
+  "sections":[
+    { "label":"Teaching",          "path":"/teaching"     },
+    { "label":"Projects",          "path":"/projects"     },
+    { "label":"Publications",      "path":"/publications" },
+    { "label":"Events",            "path":"/events"       },
+    { "label":"Team and Contacts", "path":"/team"         },
+    { "label":"FAQ",               "path":"/faq"          }
+  ]
+}
