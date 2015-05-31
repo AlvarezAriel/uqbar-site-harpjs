@@ -16,4 +16,19 @@ html
     body
         .hero-container
             .hero-logo
-        .h1 sarasa
+        nav.fixed-navbar(role='navigation')
+            .nav-wrapper.container
+                a#logo-container.brand-logo(href='#')
+                    img.navbar-logo(src="/assets/images/logo-celeste.png")
+
+                ul.right.hide-on-med-and-down
+                    li
+                        a(href='#') Navbar Link
+                ul#nav-mobile.side-nav
+                    li
+                        a(href='#') Navbar Link
+                a.button-collapse(href='#', data-activates='nav-mobile')
+                    i.mdi-navigation-menu
+
+        script(type='text/javascript').
+            $(".button-collapse").sideNav();
