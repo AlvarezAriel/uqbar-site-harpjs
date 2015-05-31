@@ -1,0 +1,18 @@
+doctype
+html
+    head
+        link( href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css')
+        link(   href="/assets/build/build.css" rel="stylesheet" )
+        block styles
+            link(   href="/assets/vendors/css/materialize.min.css" rel="stylesheet" media="screen, projection")
+        script( src="/assets/build/build.js")
+        script.
+            var jQuery = require("components~jquery@2.1.3");
+            var $ = jQuery;
+        block scripts
+            script( src="/assets/vendors/js/materialize.min.js")
+            script( src="/assets/vendors/js/jquery.scrollfire.min.js")
+    body
+        block content
+
+        !=partial("../_shared/_footer/_footer")
