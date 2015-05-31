@@ -1,3 +1,6 @@
+body
+  font-family "Roboto", sans-serif
+
 plus-sign()
   content: "+"
   font-family Arial
@@ -7,26 +10,27 @@ plus-sign()
   font-size 15em
   margin-top 25vh
 
-column()
+column(someImage)
   display: inline-block
   width: 33.3%
   height 100vh
+  background url("/assets/images/"+someImage+".jpg") no-repeat 50% 50%
+  background-size cover
 
 .column-left
-  column()
+  column("industry")
   float: left
-  background-color #d1b35b
-
+  box-shadow: inset 0 0 0 1000px rgba(255,255,64,0.6);
 
 .column-right
-  column()
+  column("research")
   float: right
-  background-color #bc4f4c
+  box-shadow: inset 0 0 0 1000px rgba(255,137,198,0.5);
 
 .column-center
-  column()
+  column("education")
   width: 33.4%
-  background-color #666ebc
+  box-shadow: inset 0 0 0 1000px rgba(159,171,255,0.5);
   ::before
     plus-sign()
     margin-right -62px
