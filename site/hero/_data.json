@@ -1,0 +1,23 @@
+{
+  "cards":[
+    {
+      "title":"Industry",
+      "background":"deep-purple darken-4",
+      "image":"industry.jpg",
+      "description":"Lorem ipsum dolor sit amet, cum ei fierent menandri eloquentiam. Ad tation graeci vis. Ceteros instructior mei eu, cu vix dolor audiam, diceret facilisi necessitatibus cum an. Dolorem delicata vel eu, nec et veniam debitis detraxit. Nostrum noluisse hendrerit at usu, vel velit legimus abhorreant et, mollis nusquam et mea. Id qui nihil tollit, te graeci eruditi atomorum vim, affert eirmod equidem usu ea. Eam id putent epicurei adipiscing, vel ex vide tollit. Doming voluptatum ius ne. Ea simul sadipscing vix. Usu agam dicta detracto ad, ad vis minim principes definiebas. Quo magna reque ad."
+    },
+    {
+      "title":"Education",
+      "background":"purple accent-4",
+      "image":"education.jpg",
+      "description":"Lorem ipsum dolor sit amet, cum ei fierent menandri eloquentiam. Ad tation graeci vis. Ceteros instructior mei eu, cu vix dolor audiam, diceret facilisi necessitatibus cum an. Dolorem delicata vel eu, nec et veniam debitis detraxit. Nostrum noluisse hendrerit at usu, vel velit legimus abhorreant et, mollis nusquam et mea. Id qui nihil tollit, te graeci eruditi atomorum vim, affert eirmod equidem usu ea. Eam id putent epicurei adipiscing, vel ex vide tollit. Doming voluptatum ius ne. Ea simul sadipscing vix. Usu agam dicta detracto ad, ad vis minim principes definiebas. Quo magna reque ad."
+    },
+    {
+      "title":"Research",
+      "background":"teal darken-3",
+      "image":"research.jpg",
+      "description":"Lorem ipsum dolor sit amet, cum ei fierent menandri eloquentiam. Ad tation graeci vis. Ceteros instructior mei eu, cu vix dolor audiam, diceret facilisi necessitatibus cum an. Dolorem delicata vel eu, nec et veniam debitis detraxit. Nostrum noluisse hendrerit at usu, vel velit legimus abhorreant et, mollis nusquam et mea. Id qui nihil tollit, te graeci eruditi atomorum vim, affert eirmod equidem usu ea. Eam id putent epicurei adipiscing, vel ex vide tollit. Doming voluptatum ius ne. Ea simul sadipscing vix. Usu agam dicta detracto ad, ad vis minim principes definiebas. Quo magna reque ad."
+    }
+  ]
+
+}
