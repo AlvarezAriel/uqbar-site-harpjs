@@ -2,7 +2,7 @@ language: node_js
 node_js:
 - '0.12'
 before_script:
-- npm install -g component
+- npm install -g component@1.1.0
 - npm install -g harp
 - cd site/assets
 - component install
