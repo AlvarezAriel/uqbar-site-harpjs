@@ -7,9 +7,9 @@
     "AlvarezAriel/iscroll": "master"
   },
   "scripts": [
-    "index.js"
+    "components.js"
   ],
   "styles": [
-    "index.css"
+    "components.css"
   ]
 }

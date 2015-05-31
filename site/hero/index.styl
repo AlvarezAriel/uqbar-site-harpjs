@@ -1,0 +1,47 @@
+plus-sign()
+  content: "+"
+  font-family Arial
+  font-weight 700
+  color white
+  z-index 2000
+  font-size 15em
+  margin-top 25vh
+
+column()
+  display: inline-block
+  width: 33.3%
+  height 100vh
+
+.column-left
+  column()
+  float: left
+  background-color #d1b35b
+
+
+.column-right
+  column()
+  float: right
+  background-color #bc4f4c
+
+.column-center
+  column()
+  width: 33.4%
+  background-color #666ebc
+  ::before
+    plus-sign()
+    margin-right -62px
+    float: right
+  ::after
+    plus-sign()
+    margin-left -62px
+    float: left
+
+.center-block-container
+  width 100%
+  position absolute
+  text-align center
+  color white
+  top 5vh
+  .inner-block
+    display inline-block
+    width 33%

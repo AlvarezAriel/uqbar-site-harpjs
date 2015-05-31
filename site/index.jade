@@ -1,1 +1,29 @@
-.md-col-12.main-slide
+doctype
+html
+    head
+        link( href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css')
+        link(   href="/assets/build/build.css" rel="stylesheet" )
+
+        block styles
+            link(   href="/assets/vendors/css/materialize.min.css" rel="stylesheet" media="screen, projection")
+
+        block scripts
+            script( src="/assets/build/build.js")
+            script( src="index.js")
+            script( src="/assets/vendors/js/materialize.min.js")
+
+    body
+        nav.white(role='navigation')
+            .nav-wrapper.container
+                a#logo-container.brand-logo(href='#') Logo
+                ul.right.hide-on-med-and-down
+                    li
+                        a(href='#') Navbar Link
+                ul#nav-mobile.side-nav
+                    li
+                        a(href='#') Navbar Link
+                a.button-collapse(href='#', data-activates='nav-mobile')
+                    i.mdi-navigation-menu
+
+    script(type='text/javascript').
+        $(".button-collapse").sideNav();
