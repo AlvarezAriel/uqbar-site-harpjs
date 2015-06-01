@@ -1,0 +1,22 @@
+extends ../_shared/_base_layout
+
+append styles
+    link(   href="/home2/index.css" rel="stylesheet" media="screen, projection")
+
+append scripts
+    script( src="/home2/index.js")
+
+block content
+    .hero-container
+        #hero-logo
+        .container
+            p
+                |Uqbar is a foundation whose concern is to push innovation and spread the voice on computer science.
+                |It bases itself on three main corner stones to achieve its goles: build software, do computer science research and teaching.
+    != partial("../_shared/_navbar/_navbar")
+    nav.static-nav.hide-on-med-and-down
+        .nav-wrapper.container
+            ul.center
+                != partial("../_shared/_menu/_menu")
+
+    block featured

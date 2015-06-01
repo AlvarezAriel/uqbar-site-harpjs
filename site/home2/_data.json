@@ -1,0 +1,23 @@
+{
+  "cards":[
+    {
+      "title":"Teaching",
+      "background":"deep-purple darken-4",
+      "image":"industry.jpg",
+      "description":"Lorem ipsum dolor sit amet, cum ei fierent menandri eloquentiam. Ad tation graeci vis. Ceteros instructior mei eu, cu vix dolor audiam, diceret facilisi necessitatibus cum an. Dolorem delicata vel eu, nec et veniam debitis detraxit. Nostrum noluisse hendrerit at usu, vel velit legimus abhorreant et, mollis nusquam et mea. Id qui nihil tollit, te graeci eruditi atomorum vim, affert eirmod equidem usu ea. Eam id putent epicurei adipiscing, vel ex vide tollit."
+    },
+    {
+      "title":"Projects",
+      "background":"purple accent-4",
+      "image":"education.jpg",
+      "description":"Lorem ipsum dolor sit amet, cum ei fierent menandri eloquentiam. Ad tation graeci vis. Ceteros instructior mei eu, cu vix dolor audiam, diceret facilisi necessitatibus cum an. Dolorem delicata vel eu, nec et veniam debitis detraxit. Nostrum noluisse hendrerit at usu, vel velit legimus abhorreant et, mollis nusquam et mea. Id qui nihil tollit, te graeci eruditi atomorum vim, affert eirmod equidem usu ea. Eam id putent epicurei adipiscing, vel ex vide tollit."
+    },
+    {
+      "title":"Publications",
+      "background":"teal darken-3",
+      "image":"research.jpg",
+      "description":"Lorem ipsum dolor sit amet, cum ei fierent menandri eloquentiam. Ad tation graeci vis. Ceteros instructior mei eu, cu vix dolor audiam, diceret facilisi necessitatibus cum an. Dolorem delicata vel eu, nec et veniam debitis detraxit. Nostrum noluisse hendrerit at usu, vel velit legimus abhorreant et, mollis nusquam et mea. Id qui nihil tollit, te graeci eruditi atomorum vim, affert eirmod equidem usu ea. Eam id putent epicurei adipiscing, vel ex vide tollit."
+    }
+  ]
+
+}

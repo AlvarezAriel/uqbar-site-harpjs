@@ -1,5 +1,6 @@
 {
-  "sections":[
+  "paths":[
+    { "label":"Home",              "path":"/"             },
     { "label":"Teaching",          "path":"/teaching"     },
     { "label":"Projects",          "path":"/projects"     },
     { "label":"Publications",      "path":"/publications" },
