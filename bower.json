@@ -1,0 +1,15 @@
+{
+  "name": "uqbar-site",
+  "version": "1.0.0",
+  "directory": "site/assets/vendors",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "parallax.js": "~1.3.2",
+    "jssor-slider": "*"
+  }
+}

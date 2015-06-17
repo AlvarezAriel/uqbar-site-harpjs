@@ -1,0 +1,18 @@
+extends ../_shared/_base_layout
+
+block styles
+    link(href="/assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen, projection")
+    link(href="/assets/vendors/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" media="screen, projection")
+    link(href="/home3/index.css" rel="stylesheet" media="screen, projection")
+
+block scripts
+    script( src="/assets/vendors/jquery/dist/jquery.min.js")
+    script( src="/assets/vendors/bootstrap/dist/js/bootstrap.min.js")
+    script( src="/assets/vendors/parallax.js/parallax.min.js")
+    script( src="/assets/vendors/jssor-slider/js/jssor.slider.mini.js")
+    script( src="/assets/vendors/jssor-slider/js/jssor.player.ytiframe.min.js")
+
+block body
+    !=partial("../_shared/_navbar/_navbar")
+    block content
+    script( src="/home3/index.js")

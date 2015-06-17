@@ -1,13 +1,20 @@
-nav.fixed-navbar.transparent-nav(role='navigation')
-    .nav-wrapper.container-fluid
-        a#logo-container.brand-logo(href='#')
-            img.navbar-logo(src="/assets/images/logo-celeste.png")
+nav.navbar.navbar-default.navbar-fixed-top
+    .container
+        .navbar-header
+            button(type="button",
+                    class="navbar-toggle collapsed",
+                    data-toggle="collapse",
+                    data-target="#navbar",
+                    aria-expanded="false"
+                    aria-controls="navbar")
+            span.sr-only
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
 
-        ul#nav-fixed.right.hide-on-med-and-down
-            != partial("../_menu/_menu")
-
-        ul#nav-mobile.side-nav
-            != partial("../_menu/_menu")
+        #navbar.navbar-collapse.collapse
+            ul#nav-fixed.nav.navbar-nav
+                != partial("../_menu/_menu")
 
         a.button-collapse(href='#', data-activates='nav-mobile')
             i.mdi-navigation-menu
