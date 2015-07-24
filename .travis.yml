@@ -4,10 +4,8 @@ node_js:
 before_script:
 - npm install -g component@1.1.0
 - npm install -g harp
-- cd site/assets
-- component install
-- component build
-- cd ../..
+- npm install -g bower
+- bower install
 - chmod +x ./deploy.sh
 script: "./deploy.sh"
 env:

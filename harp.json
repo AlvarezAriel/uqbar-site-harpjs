@@ -1,5 +1,7 @@
 {
   "globals": {
-    "title": "UQBAR"
+    "title":"Uqbar Project",
+    "description":"Uqbar Project",
+    "themeColor":"#303F9F"
   }
 }

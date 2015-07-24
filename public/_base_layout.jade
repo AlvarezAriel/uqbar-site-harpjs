@@ -1,0 +1,40 @@
+doctype
+html
+    head
+        //base(href='#{base}')
+        meta(charset='UTF-8')
+        meta(name="title" content="#{title}")
+        meta(name="description" content="#{description}")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        meta(name="theme-color" content="#{themeColor}")
+        meta(name="apple-mobile-web-app-capable" content="yes")
+        meta(name="apple-mobile-web-app-status-bar-style" content="black")
+        meta(name="apple-mobile-web-app-title" content="#{title}")
+
+        block styles
+            //if lte IE 8
+              script(src='assets/js/ie/html5shiv.js')
+            link(rel='stylesheet', href='assets/css/main.css')
+            //if lte IE 8
+              link(rel='stylesheet', href='assets/css/ie8.css')
+            //if lte IE 9
+              link(rel='stylesheet', href='assets/css/ie9.css')
+
+        title #{title}
+    body.index
+        #page-wrapper
+            != partial('../_shared/navbar/navbar')
+            block content
+            != partial('../_shared/footer/footer')
+
+    block scripts
+        // Scripts
+        script(src='assets/js/jquery.min.js')
+        script(src='assets/js/jquery.dropotron.min.js')
+        script(src='assets/js/jquery.scrolly.min.js')
+        script(src='assets/js/jquery.scrollgress.min.js')
+        script(src='assets/js/skel.min.js')
+        script(src='assets/js/util.js')
+        //if lte IE 8
+          script(src='assets/js/ie/respond.min.js')
+        script(src='assets/js/main.js')

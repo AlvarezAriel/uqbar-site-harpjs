@@ -1,0 +1,18 @@
+extends _home_layout
+
+block child
+    section(id="banner")
+        .inner
+            header
+                img(src="/assets/img/logo-celeste.png")
+            p Spreading the voice of computer science
+
+    article#main
+        header.special.container
+            !=partial("_evento_destacado")
+
+    section.wrapper.style3.container.special
+        !=partial("_proyectos_innovadores")
+
+
+

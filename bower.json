@@ -1,15 +1,24 @@
 {
-  "name": "uqbar-site",
-  "version": "1.0.0",
-  "directory": "site/assets/vendors",
+  "name": "uqbar-site-harpjs",
+  "version": "0.0.1",
+  "authors": [
+    "uqbar"
+  ],
+  "description": "Uqbar static site",
+  "keywords": [
+    "uqbar"
+  ],
+  "license": "LGPL",
+  "homepage": "www.uqbar-project.com",
   "ignore": [
-    ".jshintrc",
-    "**/*.txt"
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
-    "jquery": "~2.1.4",
-    "bootstrap": "~3.3.5",
-    "parallax.js": "~1.3.2",
-    "jssor-slider": "*"
+    "jquery": "jquery/jquery#~2.1.4"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "Mumuki":{
+      "description":"Mumuki Project, el proyecto colectivo de brindar educación de calidad, libre y gratuita sobre programación, empleando las tecnologías de la Web.",
+      "image":"http://www.uqbar-project.org/_/rsrc/1437189396803/home/mumuki%20logo.jpg?height=133&width=320",
+      "url":"http://www.mumuki.org/",
+      "featured":true
+    },
+  "Thin Languages":{
+      "description":"Open Workshop: Intro to Language Development",
+      "image":"http://www.uqbar-project.org/_/rsrc/1424192432208/home/Captura%20de%20pantalla%202015-02-17%20a%20las%2014.00.40.png?height=110&width=400",
+      "url":"http://http://thin-languages.uqbar.org",
+      "featured":true
+    }
+}
